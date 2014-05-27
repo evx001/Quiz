@@ -9,7 +9,8 @@
 #import "EVXQuizViewController.h"
 
 @interface EVXQuizViewController ()
-
+@property (nonatomic, weak) IBOutlet UILabel *questionLabel;
+@property (nonatomic, weak) IBOutlet UILabel *answerLabel;
 @end
 
 @implementation EVXQuizViewController
