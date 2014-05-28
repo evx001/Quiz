@@ -50,9 +50,9 @@
 		6099645019352E470052030A /* QuizTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QuizTests-Info.plist"; sourceTree = "<group>"; };
 		6099645219352E470052030A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6099645419352E470052030A /* QuizTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuizTests.m; sourceTree = "<group>"; };
-		6099645E193534FA0052030A /* EVXQuizViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVXQuizViewController.h; sourceTree = "<group>"; };
-		6099645F193534FA0052030A /* EVXQuizViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVXQuizViewController.m; sourceTree = "<group>"; };
-		60996460193534FA0052030A /* EVXQuizViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EVXQuizViewController.xib; sourceTree = "<group>"; };
+		6099645E193534FA0052030A /* EVXQuizViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EVXQuizViewController.h; path = ../EVXQuizViewController.h; sourceTree = "<group>"; };
+		6099645F193534FA0052030A /* EVXQuizViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EVXQuizViewController.m; path = ../EVXQuizViewController.m; sourceTree = "<group>"; };
+		60996460193534FA0052030A /* EVXQuizViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = EVXQuizViewController.xib; path = ../EVXQuizViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,9 +82,6 @@
 		6099642319352E470052030A = {
 			isa = PBXGroup;
 			children = (
-				6099645E193534FA0052030A /* EVXQuizViewController.h */,
-				6099645F193534FA0052030A /* EVXQuizViewController.m */,
-				60996460193534FA0052030A /* EVXQuizViewController.xib */,
 				6099643519352E470052030A /* Quiz */,
 				6099644E19352E470052030A /* QuizTests */,
 				6099642E19352E470052030A /* Frameworks */,
@@ -115,6 +112,9 @@
 		6099643519352E470052030A /* Quiz */ = {
 			isa = PBXGroup;
 			children = (
+				6099645E193534FA0052030A /* EVXQuizViewController.h */,
+				6099645F193534FA0052030A /* EVXQuizViewController.m */,
+				60996460193534FA0052030A /* EVXQuizViewController.xib */,
 				6099643E19352E470052030A /* EVXAppDelegate.h */,
 				6099643F19352E470052030A /* EVXAppDelegate.m */,
 				6099644119352E470052030A /* Images.xcassets */,
